@@ -144,10 +144,12 @@ main {
 
 /* Footer styles */
 footer {
-  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  background-color: #222;
   color: #fff;
   padding: 1rem;
-  text-align: center;
+  width: 100%;
 }
 
 footer p {
