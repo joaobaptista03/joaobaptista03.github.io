@@ -1,83 +1,13 @@
-/* Global styles */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
+@import "main_style.css";
 
-a {
-  text-decoration: none;
-  color: #007bff;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0 0 1rem;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-/* Header styles */
-header {
-  background-color: #222;
-  color: #fff;
-  padding: 1rem;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin-left: 1rem;
-}
-
-nav li:first-child {
-  margin-left: 0;
-}
-
-nav a {
-  font-size: 1.2rem;
-}
-
-/* Footer styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
-}
+.about-section a {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .about-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }

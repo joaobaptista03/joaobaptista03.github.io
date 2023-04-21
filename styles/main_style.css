@@ -38,6 +38,18 @@ header {
   background-color: #222;
   color: #fff;
   padding: 1rem;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
 
 header h1 {
@@ -47,8 +59,9 @@ header h1 {
 
 header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 nav ul {
@@ -56,10 +69,12 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 nav li {
   margin-left: 1rem;
+  margin: 0 20px;
 }
 
 nav li:first-child {
@@ -67,12 +82,37 @@ nav li:first-child {
 }
 
 nav a {
-  font-size: 1.2rem;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
+  border-radius: 4px;
 }
 
 /* Main styles */
 main {
   padding: 2rem 0;
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0%);
+  }
 }
 
 .project {
