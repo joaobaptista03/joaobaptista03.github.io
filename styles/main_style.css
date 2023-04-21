@@ -153,3 +153,35 @@ footer {
 footer p {
   margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+
+  /* Header styles */
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 1rem;
+  }
+  
+  .project {
+    padding: 0.5rem;
+  }
+  
+}
