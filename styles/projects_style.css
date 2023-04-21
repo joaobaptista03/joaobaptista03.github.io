@@ -1,1 +1,20 @@
 @import "main_style.css";
+
+.projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  max-width: 600px;
+}
+
+.github_icon {
+    width: 45px;
+    height: 45px;
+  }

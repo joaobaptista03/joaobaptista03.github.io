@@ -1,5 +1,10 @@
 @import "main_style.css";
 
+#home p {
+    max-width: 175ch;
+    margin: auto;
+}
+
 .about-section a {
     display: inline-block;
     border-radius: 50%;
