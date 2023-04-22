@@ -6,11 +6,15 @@
   margin: 20px; 
   max-width: 700px;
   margin: auto;
-  
 }
 
 .project p {
   color: #000000;
+}
+
+.jumper_dude_img {
+  zoom: 20%;
+  padding: 85px;
 }
 
 .github_icon {
@@ -18,36 +22,16 @@
     height: 45px;
 }
 
-.photo_project {
-  display: flex;
-  padding: 20px;
-}
-
-.photo_project p {
-  padding-top: 20px;
-  padding-left: 30px;
-}
-
-.photo_project img {
-  width: 300px;
-  height: 169px;
-  border: 1px solid black;
-}
-
 @media only screen and (max-width: 600px) {
   .photo_project {
     display: block;
     padding: 20px;
     margin-right: 25px;
-    text-align: middle;
   }
 
-  .photo_project img {
-    margin-left: 25px;
-  }
-
-  .photo_project p {
-    font-size: 15px;
+  .jumper_dude_img {
+    zoom: 17%;
+    margin-left: -70px;
   }
 
   .project p {
