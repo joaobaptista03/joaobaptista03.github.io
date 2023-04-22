@@ -188,4 +188,7 @@ footer p {
     padding: 0.5rem;
   }
   
+  footer {
+    position: sticky;
+  }
 }

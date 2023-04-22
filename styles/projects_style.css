@@ -39,3 +39,21 @@
   height: 169px;
   border: 1px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+  .photo_project {
+    display: block;
+    padding: 20px;
+    margin-right: 25px;
+    text-align: middle;
+  }
+
+  .photo_project img {
+    zoom: 86%;
+  }
+
+  .projects ul {
+    margin-right: 35px;
+  }
+  
+}
