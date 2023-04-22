@@ -43,7 +43,8 @@
   }
 
   .photo_project img {
-    zoom: 86%;
+    margin-left: 25px;
+    zoom: 90%;
   }
 
   .project ul {
