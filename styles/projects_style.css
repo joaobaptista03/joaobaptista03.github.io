@@ -1,18 +1,12 @@
 @import "main_style.css";
 
-.projects ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  zoom: 90%;
-}
-
 .project {
   border: 1px solid #000000;
   padding: 20px;
   margin: 20px; 
   max-width: 700px;
-  align-self: center;
+  margin: auto;
+  
 }
 
 .project p {
@@ -22,7 +16,7 @@
 .github_icon {
     width: 45px;
     height: 45px;
-  }
+}
 
 .photo_project {
   display: flex;
@@ -52,7 +46,7 @@
     zoom: 86%;
   }
 
-  .projects ul {
+  .project ul {
     margin-right: 35px;
   }
   
