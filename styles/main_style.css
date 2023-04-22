@@ -30,12 +30,6 @@ p {
   margin: 0 0 1rem;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
 /* Header styles */
 header {
   background-color: #222;
@@ -57,14 +51,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  margin: 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  margin: 5px;
 }
 
 nav ul {
@@ -75,24 +62,15 @@ nav ul {
   justify-content: center;
 }
 
-nav li {
-  margin-left: 1rem;
-  margin: 0 20px;
-}
-
-nav li:first-child {
-  margin-left: 0;
-}
-
 nav a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 35px;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 nav a:hover {
@@ -161,36 +139,8 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
-
-  /* Header styles */
-  header h1 {
-    font-size: 2rem;
-  }
-  
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  nav li {
-    margin: 0;
-  }
-  
-  nav a {
-    display: block;
-    padding: 10px;
-  }
-  
   /* Main styles */
   main {
-    padding: 1rem;
-  }
-  
-  .project {
-    padding: 0.5rem;
-  }
-  
-  footer {
-    position: sticky;
+    padding: 2rem;
   }
 }

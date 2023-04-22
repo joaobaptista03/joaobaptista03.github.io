@@ -1,6 +1,6 @@
 @import "main_style.css";
 
-#home p {
+.about-section p {
     max-width: 175ch;
     margin: auto;
 }
@@ -16,4 +16,16 @@
   display: block;
   width: 100%;
   height: auto;
+}
+
+.about-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-section p {
+    max-width: 10ch;
+  }
 }

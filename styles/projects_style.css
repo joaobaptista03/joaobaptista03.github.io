@@ -44,11 +44,13 @@
 
   .photo_project img {
     margin-left: 25px;
-    zoom: 90%;
   }
 
-  .project ul {
-    margin-right: 35px;
+  .photo_project p {
+    font-size: 15px;
   }
-  
+
+  .project p {
+    font-size: 15px;
+  }
 }
