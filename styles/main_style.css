@@ -139,8 +139,11 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
-  /* Main styles */
   main {
     padding: 2rem;
+  }
+
+  footer p {
+    margin-right: 15px;
   }
 }
