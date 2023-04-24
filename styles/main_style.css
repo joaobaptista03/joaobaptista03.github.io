@@ -10,7 +10,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #999;
-  zoom: 90%;
 }
 
 a {
@@ -146,5 +145,9 @@ footer p {
 
   footer p {
     margin-right: 15px;
+  }
+  
+  body {
+    zoom: 90%;
   }
 }
