@@ -147,7 +147,7 @@ footer p {
     margin-right: 15px;
   }
   
-  body {
-    zoom: 90%;
+  * {
+    transform: scale (1.1, 1.1);
   }
 }
