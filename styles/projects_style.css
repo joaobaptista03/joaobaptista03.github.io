@@ -22,6 +22,11 @@
     height: 45px;
 }
 
+.LIForCars_img {
+  zoom: 20%;
+  padding: 85px;
+}
+
 @media only screen and (max-width: 600px) {
   .photo_project {
     display: block;
@@ -33,7 +38,12 @@
     zoom: 17%;
     margin-left: -70px;
   }
-
+  
+  .LIForCars_img {
+    zoom: 17%;
+    margin-left: -70px;
+  }
+  
   .project p {
     font-size: 15px;
   }
