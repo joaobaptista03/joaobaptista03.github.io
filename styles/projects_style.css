@@ -27,6 +27,11 @@
   padding: 85px;
 }
 
+.servindustria_img {
+  zoom: 40%;
+  padding: 55px;
+}
+
 @media only screen and (max-width: 600px) {
   .photo_project {
     display: block;
