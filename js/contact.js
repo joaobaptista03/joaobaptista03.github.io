@@ -27,7 +27,7 @@ function onSubmitForm(event) {
         headers: { "Content-Type": "application/json" },
     })
         .then((response) => {
-            document.getElementsByClassName("sent_form")[0].style.display = "block";
+            document.getElementsByClassName("sent_form")[0].style.display = "flex";
         })
         .catch((error) => {
             console.log(error);
