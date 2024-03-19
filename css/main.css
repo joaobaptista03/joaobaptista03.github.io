@@ -44,6 +44,7 @@ nav a {
     padding: 10px 15px;
     text-decoration: none;
     color: black;
+    cursor: crosshair;
 }
 
 nav a:hover {
@@ -63,12 +64,12 @@ nav a:hover {
 }
 
 .active {
+    padding: 10px 15px;
     background-color: lightgray;
     border: 1px solid black;
-    border-radius: 30px;
-    cursor: not-allowed;
     animation-name: display-in;
     animation-duration: 1s;
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 900px) {
