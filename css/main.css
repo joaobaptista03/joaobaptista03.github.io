@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+html {
+    font-family: 'Kalam';
+    background-color: rgb(37, 37, 37);
+    padding: 50px 0;
+}
+
+body {
+    margin: 0;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+
+main {
+    animation-name: slide-in;
+    animation-duration: 0.6s;
+}
+
+/* ----------------------- HEADER ----------------------- */
+
+nav {
+    background-color: rgb(191, 191, 191);
+    display: flex;
+    align-items: center;
+    margin: 0px auto 50px auto;
+    width: fit-content;
+    padding: 10px 0;
+    border-radius: 30px;
+    box-shadow: 0px 3px 10px 0px black;
+}
+
+nav a {
+    margin: 0 40px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    transition: 0.2s;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+@keyframes display-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.active {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: not-allowed;
+    animation-name: display-in;
+    animation-duration: 1s;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        flex-direction: column;
+    }
+    
+}
+
+/* ----------------------- FOOTER ----------------------- */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(191, 191, 191);
+    color: black;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

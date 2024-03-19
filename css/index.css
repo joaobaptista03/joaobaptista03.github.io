@@ -1,0 +1,29 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(191, 191, 191);
+    border-radius: 50px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.about p {
+    text-align: center; 
+    font-size: 1.2em;
+    padding: 0 10%;
+}
+
+#my_image {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        margin-bottom: 50px;
+    }
+}
