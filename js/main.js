@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var direction = window.location.href.split('/').pop().split('?')[1].split('=')[1];
+    var direction = window.location.href.split('/').pop().split('?')[1];
+    console.log(direction);
+    if (direction != undefined) direction = direction.split('=')[1];
     
     var mainElement = document.querySelector('main');
     if (direction === '-1') mainElement.style.animationName = 'slide-in-left';
