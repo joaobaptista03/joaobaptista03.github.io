@@ -53,5 +53,9 @@
     }
     #top_languages {
         width: 60%;
+        margin-top: 0;
+    }
+    #contributions {
+        margin-top: 0;
     }
 }
