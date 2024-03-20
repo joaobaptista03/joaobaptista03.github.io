@@ -20,6 +20,16 @@ body {
     }
 }
 
+@keyframes slide-out {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
 
 main {
     animation-name: slide-in;
@@ -76,7 +86,7 @@ nav a:hover {
     nav {
         flex-direction: column;
     }
-    
+
 }
 
 /* ----------------------- FOOTER ----------------------- */
