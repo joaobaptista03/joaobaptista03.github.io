@@ -15,6 +15,10 @@
     padding: 0 10%;
 }
 
+.about a {
+    text-decoration: none;
+}
+
 #my_image {
     width: 300px;
     height: 300px;
